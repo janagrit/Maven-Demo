@@ -14,9 +14,9 @@ public class utility {
 
         int one = (1+ (int) (Math.random()+8) );
         int two = (1+ (int) (Math.random()+8) );
-        System.out.println("Dice #1: " + one);
-        System.out.println("Dice #2: " + two);
-        System.out.println("Total: " + (one+two));
+        System.out.println("Dice #1: " + one +"\n" +
+                "Dice #2: " + two + "\n" +
+                "Total: " + (one+two));
     }
 
     public static void generateEmail(){
