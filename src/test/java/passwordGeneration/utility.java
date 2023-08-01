@@ -11,6 +11,8 @@ public class utility {
         System.out.println();
     }
 
+
+
     public static void checkEvenOrOdd(int number){
 
         if( number%2 == 0 ){
