@@ -2,21 +2,32 @@ package passwordGeneration;
 
 public class utility {
 
-    public static void generatePassword(){
-
+    public static void getRandomPassword(){
+        char pass ;
+        for (int i = 0; i < 6; i++) {
+            pass=(char) (65 + (Math.random() * 26) );
+            System.out.print(pass);
+        }
+        System.out.println();
     }
 
-    public static void generateChars(){
+    public static void checkEvenOrOdd(int number){
+
+        if( number%2 == 0 ){
+            System.out.println("the number " + number + " is even");
+        }else {
+            System.out.println("the number " + number + " is odd");
+        }
 
     }
 
     public static void throwDice(){
 
-        int one = (1+ (int) (Math.random()+8) );
-        int two = (1+ (int) (Math.random()+8) );
+        int one = (int) (Math.random()*5) +1 ;
+        int two = (int) (Math.random()*5) + 1 ;
         System.out.println("Dice #1: " + one +"\n" +
                 "Dice #2: " + two + "\n" +
-                "Total: " + (one+two));
+                "Total: " + (one+two) +"\n");
     }
 
     public static void generateEmail(){
@@ -37,5 +48,6 @@ public class utility {
 
         getRandomSSN();
         throwDice();
+        getRandomPassword();
     }
 }

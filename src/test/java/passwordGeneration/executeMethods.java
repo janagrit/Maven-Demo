@@ -14,5 +14,7 @@ public class executeMethods {
         System.out.println((char)ch2);
         utility.getRandomSSN();
         utility.throwDice();
+        utility.getRandomPassword();
+        utility.checkEvenOrOdd(4);
     }
 }
