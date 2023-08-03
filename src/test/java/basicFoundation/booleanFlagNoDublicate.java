@@ -1,4 +1,4 @@
-package passwordGeneration;
+package basicFoundation;
 
 public class booleanFlagNoDublicate {
     public static void main(String[] args) {
