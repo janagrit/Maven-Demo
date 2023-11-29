@@ -5,14 +5,17 @@ public class nestedLoop_Odometer {
 
     public static void main(String[] args) throws InterruptedException {
 
-//        for (int i = 0; i <= 10; i++) {
-//            for (int j = 0; j < 2; j++) {
-//                System.out.println("INNER LOOP: " + j);
-//            }
-//            System.out.println("---------- "+i +" --------" );
-//        }
+        for (int i = 1; i <= 2; i++) {
+            System.out.println("---------- "+i +" --------" );
 
-        odometer();
+            for (int j = 1; j <= 2; j++) {
+                System.out.println("INNER LOOP: N " + j);
+            }
+
+
+        }
+
+      //  odometer();
 
     }
 
