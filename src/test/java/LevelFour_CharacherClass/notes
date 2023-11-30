@@ -1,0 +1,10 @@
+Character Class
+
+isDigit(ch)
+isLetter(ch)
+
+isLowerCase(ch)
+isUpperCase(ch)
+
+toLowerCase(ch)
+toUpperCase(ch)
